@@ -15,18 +15,17 @@
 
 6. command install node.js
 ```
-wget https://nodejs.org/dist/v8.10.0/node-v8.10.
-0-linux-x64.tar.gz
+wget https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.gz
 ```
 
 7. unzip command for node.js
 ```
-tar xvzf node-v8.10.0-linux-x64.tar.gz
+tar xvzf node-v18.15.0-linux-x64.tar.gz
 ```
 
 8. mv command
 ```
-mv node-v8.10.0-linux-64 nodejs
+mv node-v18.15.0-linux-64 nodejs
 ```
 9. create folder
 ```
