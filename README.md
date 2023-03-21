@@ -13,7 +13,36 @@
 
 5. enter cpanel username and password
 
-6. command 
+6. command install node.js
 ```
-wget
+wget https://nodejs.org/dist/v8.10.0/node-v8.10.
+0-linux-x64.tar.gz
+```
+
+7. unzip command for node.js
+```
+tar xvzf node-v8.10.0-linux-x64.tar.gz
+```
+
+8. mv command
+```
+mv node-v8.10.0-linux-64 nodejs
+```
+9. create folder
+```
+makdir ~/bin
+```
+10. copy coommand
+```
+cp nodejs/bin/node ~/bin
+```
+11. change directory
+```
+cd ~/bin
+
+//for start
+ln -s ../nodejs/lib/node_modules/npm/bin/npm -cli.js npm
+
+//version
+node --version
 ```
